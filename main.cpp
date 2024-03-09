@@ -10,9 +10,10 @@ int main()
 
    for(int i = 0; i < M; i++)
    {
+      char K = "A" + i;
       for(int j = 0; j <= i; j++)
       {
-         cout << i << " " << j << endl;
+         cout << K;
       }
    }
   
