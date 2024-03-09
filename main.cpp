@@ -12,8 +12,9 @@ int main()
    {
       for(int j = 0; j <= i; j++)
       {
-         cout << static_cast<char>('A' + i) << endl;
+         cout << static_cast<char>('A' + j) << " ";
       }
+      cout << endl;
    }
   
 }
