@@ -10,7 +10,7 @@ int main()
 
    for(int i = 0; i < M; i++)
    {
-      for(int j = 0; j < M; j++)
+      for(int j = 0; j <= i; j++)
       {
          cout << i << " " << j << endl;
       }
