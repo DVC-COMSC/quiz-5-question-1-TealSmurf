@@ -10,10 +10,9 @@ int main()
 
    for(int i = 0; i < M; i++)
    {
-      char K = "A" + i;
       for(int j = 0; j <= i; j++)
       {
-         cout << K;
+         cout << static_cast<char>('A' + i) << endl;
       }
    }
   
